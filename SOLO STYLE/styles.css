@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("https://media.gettyimages.com/id/1316862278/photo/white-sports-shoes-over-blue-and-yellow-background-sports-and-casual-clothing-90s-style.jpg?s=2048x2048&w=gi&k=20&c=MJOAXpt9EvbzMbDknDYcebDE-EvPD06j5IGyXfhmWjw=");
+}
+
+header {
+    background-color: black;
+    
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    
+}
+
+header nav a {
+    color: white;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid black;
+    padding: 20px;
+    width: 200px;
+    margin-left: 30px;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product h3 {
+    margin: 10px 0;
+    
+}
+
+.product p {
+    margin: 5px 0;
+   
+}
+
+.product button {
+    margin-top: 10px;
+    align-items: center;
+}
+
+.product-detail {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-detail img {
+    width: 300px;
+    
+}
+
+.cart-items {
+    padding: 20px;
+}
+
+.cart-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item h4 {
+    margin: 0;
+}
+
+#checkoutBtn {
+    display: block;
+    margin: 20px auto;
+}
+
+.last{
+    background-color: black;
+    height: 100px;
+    width:1600px ;
+    color: white;
+    word-spacing: 0px;
+    display: flex;
+    
+}
+
+.border{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.Desc{
+    width: 700px;
+    margin-left: 40px;
+}
+
+.img{
+    margin-left: 100px;
+    margin-top: 10px;
+}
